@@ -1,4 +1,6 @@
 # Intelligent-Robot-Arm
+[English](README.md) | [中文](README_zh.md)
+
 This is an repository of an intelligent waste sorting robot arm, as my final year project. The system mainly consists of three modules, a camera (OV5640 USB), a main development board (D-Robotics RDK-X5), and a robotic arm and its controller (Jibot1-STM32). This project combines object recognition models, monocular ranging and inverse kinematics to achieve simple waste picking and sorting.
 
 
