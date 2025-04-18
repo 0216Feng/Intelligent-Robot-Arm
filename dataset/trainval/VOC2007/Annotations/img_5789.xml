@@ -1,0 +1,26 @@
+<annotation>
+  <folder>蛋壳</folder>
+  <filename>img_5789.jpg</filename>
+  <path>D:\resize\蛋壳\img_5789.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>601</width>
+    <height>638</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>蛋壳</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>143</xmin>
+        <ymin>112</ymin>
+        <xmax>600</xmax>
+        <ymax>637</ymax>
+      </bndbox>
+    </object>
+  </annotation>

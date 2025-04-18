@@ -1,0 +1,26 @@
+<annotation>
+  <folder>过期药物-孙双艳</folder>
+  <filename>img_19450.jpg</filename>
+  <path>D:\resize\过期药物-孙双艳\img_19450.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>323</width>
+    <height>426</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>过期药物</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>10</xmin>
+        <ymin>117</ymin>
+        <xmax>322</xmax>
+        <ymax>364</ymax>
+      </bndbox>
+    </object>
+  </annotation>

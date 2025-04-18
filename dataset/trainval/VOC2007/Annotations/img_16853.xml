@@ -1,0 +1,26 @@
+<annotation>
+  <folder>18</folder>
+  <filename>img_16853.jpg</filename>
+  <path>D:\resize\18\img_16853.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>448</width>
+    <height>376</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>金属食品罐</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>65</xmin>
+        <ymin>21</ymin>
+        <xmax>400</xmax>
+        <ymax>375</ymax>
+      </bndbox>
+    </object>
+  </annotation>

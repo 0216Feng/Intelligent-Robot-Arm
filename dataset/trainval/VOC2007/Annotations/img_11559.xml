@@ -1,0 +1,26 @@
+<annotation>
+  <folder>易拉罐-孙双艳</folder>
+  <filename>img_11559.jpg</filename>
+  <path>D:\resize\易拉罐-孙双艳\img_11559.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>451</width>
+    <height>527</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>易拉罐</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>120</xmin>
+        <ymin>8</ymin>
+        <xmax>355</xmax>
+        <ymax>503</ymax>
+      </bndbox>
+    </object>
+  </annotation>

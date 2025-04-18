@@ -1,0 +1,26 @@
+<annotation>
+  <folder>菜帮菜叶</folder>
+  <filename>img_5060.jpg</filename>
+  <path>D:\resize\菜帮菜叶\img_5060.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>778</width>
+    <height>564</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>菜帮菜叶</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>159</xmin>
+        <ymin>37</ymin>
+        <xmax>740</xmax>
+        <ymax>556</ymax>
+      </bndbox>
+    </object>
+  </annotation>

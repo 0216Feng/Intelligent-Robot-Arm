@@ -1,0 +1,26 @@
+<annotation>
+  <folder>洗护用品</folder>
+  <filename>img_8123.jpg</filename>
+  <path>D:\resize\洗护用品\img_8123.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>284</width>
+    <height>429</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>洗护用品</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>22</xmin>
+        <ymin>4</ymin>
+        <xmax>214</xmax>
+        <ymax>428</ymax>
+      </bndbox>
+    </object>
+  </annotation>

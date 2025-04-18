@@ -1,0 +1,26 @@
+<annotation>
+	<folder>充电宝</folder>
+	<filename>img_6924.jpg</filename>
+	<path>C:\Users\zwx652983\Desktop\lj\充电宝\img_6924.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>750</width>
+		<height>563</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>充电宝</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>66</xmin>
+			<ymin>80</ymin>
+			<xmax>660</xmax>
+			<ymax>415</ymax>
+		</bndbox>
+	</object>
+</annotation>

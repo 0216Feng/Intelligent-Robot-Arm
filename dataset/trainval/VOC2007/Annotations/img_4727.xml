@@ -1,0 +1,26 @@
+<annotation>
+  <folder>茶叶渣</folder>
+  <filename>img_4727.jpg</filename>
+  <path>D:\resize\茶叶渣\img_4727.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>457</width>
+    <height>405</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>茶叶渣</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>150</xmin>
+        <ymin>63</ymin>
+        <xmax>403</xmax>
+        <ymax>404</ymax>
+      </bndbox>
+    </object>
+  </annotation>

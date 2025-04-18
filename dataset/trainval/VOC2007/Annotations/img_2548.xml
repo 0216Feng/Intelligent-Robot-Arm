@@ -1,0 +1,26 @@
+<annotation>
+  <folder>6</folder>
+  <filename>img_2548.jpg</filename>
+  <path>D:\resize\6\img_2548.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>803</width>
+    <height>828</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>剩饭剩菜</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>1</xmin>
+        <ymin>0</ymin>
+        <xmax>802</xmax>
+        <ymax>827</ymax>
+      </bndbox>
+    </object>
+  </annotation>

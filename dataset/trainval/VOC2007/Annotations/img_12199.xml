@@ -1,0 +1,26 @@
+<annotation>
+	<folder>毛绒玩具</folder>
+	<filename>img_12199.jpg</filename>
+	<path>C:\Users\hwx731336\Desktop\黄明明\毛绒玩具\img_12199.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>293</width>
+		<height>368</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>毛绒玩具</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>67</xmin>
+			<ymin>25</ymin>
+			<xmax>290</xmax>
+			<ymax>305</ymax>
+		</bndbox>
+	</object>
+</annotation>

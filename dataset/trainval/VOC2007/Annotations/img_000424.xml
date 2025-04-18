@@ -1,0 +1,26 @@
+<annotation>
+  <folder>锅-4</folder>
+  <filename>img_000424.jpg</filename>
+  <path>D:\resize\锅-4\img_000424.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>946</width>
+    <height>2048</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>锅</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>214</xmin>
+        <ymin>672</ymin>
+        <xmax>677</xmax>
+        <ymax>1431</ymax>
+      </bndbox>
+    </object>
+  </annotation>

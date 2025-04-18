@@ -1,0 +1,26 @@
+<annotation>
+  <folder>8</folder>
+  <filename>img_6804.jpg</filename>
+  <path>D:\resize\8\img_6804.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>750</width>
+    <height>1000</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>充电宝</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>119</xmin>
+        <ymin>154</ymin>
+        <xmax>546</xmax>
+        <ymax>863</ymax>
+      </bndbox>
+    </object>
+  </annotation>

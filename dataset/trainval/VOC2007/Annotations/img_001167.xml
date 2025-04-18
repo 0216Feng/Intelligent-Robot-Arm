@@ -1,0 +1,26 @@
+<annotation>
+  <folder>污损用纸-22</folder>
+  <filename>img_000168.jpg</filename>
+  <path>D:\resize\污损用纸-22\img_000168.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>2047</width>
+    <height>2047</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>污损用纸</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>201</xmin>
+        <ymin>543</ymin>
+        <xmax>1814</xmax>
+        <ymax>1708</ymax>
+      </bndbox>
+    </object>
+  </annotation>

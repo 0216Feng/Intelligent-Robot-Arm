@@ -1,0 +1,26 @@
+<annotation>
+  <folder>锅-油桶-孙双艳</folder>
+  <filename>img_17428.jpg</filename>
+  <path>D:\resize\锅-油桶-孙双艳\img_17428.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>300</width>
+    <height>400</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>食用油桶</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>63</xmin>
+        <ymin>37</ymin>
+        <xmax>191</xmax>
+        <ymax>344</ymax>
+      </bndbox>
+    </object>
+  </annotation>

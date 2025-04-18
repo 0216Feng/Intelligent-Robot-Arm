@@ -1,0 +1,26 @@
+<annotation>
+  <folder>15</folder>
+  <filename>img_12621.jpg</filename>
+  <path>D:\resize\15\img_12621.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>328</width>
+    <height>449</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>毛绒玩具</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>7</xmin>
+        <ymin>48</ymin>
+        <xmax>313</xmax>
+        <ymax>441</ymax>
+      </bndbox>
+    </object>
+  </annotation>

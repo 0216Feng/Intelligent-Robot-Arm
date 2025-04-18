@@ -1,0 +1,26 @@
+<annotation>
+  <folder>14</folder>
+  <filename>img_11954.jpg</filename>
+  <path>D:\resize\14\img_11954.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>130</width>
+    <height>173</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>枕头</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>10</xmin>
+        <ymin>2</ymin>
+        <xmax>118</xmax>
+        <ymax>169</ymax>
+      </bndbox>
+    </object>
+  </annotation>

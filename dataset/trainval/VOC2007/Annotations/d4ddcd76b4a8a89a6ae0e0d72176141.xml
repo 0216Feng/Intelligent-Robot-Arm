@@ -1,0 +1,26 @@
+<annotation>
+	<folder>label</folder>
+	<filename>d4ddcd76b4a8a89a6ae0e0d72176141.jpg</filename>
+	<path>C:\Users\hwx594248\Desktop\label\d4ddcd76b4a8a89a6ae0e0d72176141.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>1440</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>书籍纸张</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>87</ymin>
+			<xmax>1021</xmax>
+			<ymax>1418</ymax>
+		</bndbox>
+	</object>
+</annotation>

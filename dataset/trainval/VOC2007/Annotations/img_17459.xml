@@ -1,0 +1,26 @@
+<annotation>
+	<folder>食用油桶-50</folder>
+	<filename>img_17459.jpg</filename>
+	<path>C:\Users\zwx749888\Desktop\食用油桶-50\img_17459.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>229</width>
+		<height>444</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>食用油桶</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>7</xmin>
+			<ymin>29</ymin>
+			<xmax>154</xmax>
+			<ymax>438</ymax>
+		</bndbox>
+	</object>
+</annotation>

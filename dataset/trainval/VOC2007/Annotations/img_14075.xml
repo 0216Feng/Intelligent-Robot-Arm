@@ -1,0 +1,26 @@
+<annotation>
+  <folder>鞋-王佳莹</folder>
+  <filename>img_14075.jpg</filename>
+  <path>D:\resize\鞋-王佳莹\img_14075.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>577</width>
+    <height>1024</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>鞋</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>91</xmin>
+        <ymin>306</ymin>
+        <xmax>454</xmax>
+        <ymax>730</ymax>
+      </bndbox>
+    </object>
+  </annotation>

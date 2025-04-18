@@ -1,0 +1,26 @@
+<annotation>
+	<folder>牙签</folder>
+	<filename>img_1208.jpg</filename>
+	<path>C:\Users\zwx749888\Desktop\牙签\img_1208.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>225</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>牙签</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>156</xmin>
+			<ymin>15</ymin>
+			<xmax>166</xmax>
+			<ymax>216</ymax>
+		</bndbox>
+	</object>
+</annotation>

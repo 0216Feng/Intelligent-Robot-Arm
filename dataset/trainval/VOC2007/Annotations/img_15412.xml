@@ -1,0 +1,26 @@
+<annotation>
+  <folder>纸盒纸箱-孙双艳</folder>
+  <filename>img_15412.jpg</filename>
+  <path>D:\resize\纸盒纸箱-孙双艳\img_15412.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>431</width>
+    <height>493</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>纸盒纸箱</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>3</xmin>
+        <ymin>67</ymin>
+        <xmax>410</xmax>
+        <ymax>484</ymax>
+      </bndbox>
+    </object>
+  </annotation>

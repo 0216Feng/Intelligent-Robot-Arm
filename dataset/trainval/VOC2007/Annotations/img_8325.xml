@@ -1,0 +1,26 @@
+<annotation>
+  <folder>10</folder>
+  <filename>img_8325.jpg</filename>
+  <path>D:\resize\10\img_8325.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>800</width>
+    <height>660</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>塑料玩具</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>16</xmin>
+        <ymin>52</ymin>
+        <xmax>793</xmax>
+        <ymax>659</ymax>
+      </bndbox>
+    </object>
+  </annotation>

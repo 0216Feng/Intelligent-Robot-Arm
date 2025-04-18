@@ -1,0 +1,26 @@
+<annotation>
+	<folder>快递纸袋</folder>
+	<filename>img_9755.jpg</filename>
+	<path>C:\Users\zwx652983\Desktop\lj\快递纸袋\img_9755.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>460</width>
+		<height>355</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>快递纸袋</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>12</xmin>
+			<ymin>8</ymin>
+			<xmax>446</xmax>
+			<ymax>348</ymax>
+		</bndbox>
+	</object>
+</annotation>

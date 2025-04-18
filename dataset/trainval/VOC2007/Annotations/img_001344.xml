@@ -1,0 +1,26 @@
+<annotation>
+  <folder>果皮果肉-18</folder>
+  <filename>img_000060.jpg</filename>
+  <path>D:\resize\果皮果肉-18\img_000060.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>1536</width>
+    <height>2048</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>果皮果肉</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>228</xmin>
+        <ymin>761</ymin>
+        <xmax>1128</xmax>
+        <ymax>1638</ymax>
+      </bndbox>
+    </object>
+  </annotation>

@@ -1,0 +1,26 @@
+<annotation>
+  <folder>11</folder>
+  <filename>img_8797.jpg</filename>
+  <path>D:\resize\11\img_8797.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>400</width>
+    <height>325</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>塑料器皿</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>65</xmin>
+        <ymin>31</ymin>
+        <xmax>337</xmax>
+        <ymax>303</ymax>
+      </bndbox>
+    </object>
+  </annotation>

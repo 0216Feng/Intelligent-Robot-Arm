@@ -1,0 +1,26 @@
+<annotation>
+	<folder>旧衣服</folder>
+	<filename>img_10831.jpg</filename>
+	<path>C:\Users\hwx731336\Desktop\黄明明\旧衣服\img_10831.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>580</width>
+		<height>401</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>旧衣服</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>16</xmin>
+			<ymin>80</ymin>
+			<xmax>554</xmax>
+			<ymax>366</ymax>
+		</bndbox>
+	</object>
+</annotation>

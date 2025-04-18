@@ -1,0 +1,106 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: HUO ZHIFENG, Macau University of Science and Technology, LIC=X96CK-Z4DG0-01VP1-CZY9S-WZZPU-CQW4U
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.40.0.3
+Toolchain Path:  D:\study\Embedded System\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DARMSTM.DLL V1.69.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TARMSTM.DLL V1.67.1.0
+ 
+<h2>Project:</h2>
+D:\BaiduNetdiskDownload\»úÐµ±Û\Jibot1-32³ö³§³ÌÐò-²â¾à¼ÐÈ¡\Project\Jibot1-32.uvproj
+Project File Date:  03/25/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\study\Embedded System\keil5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling z_global.c...
+compiling z_delay.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_dma.c...
+compiling misc.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_usart.c...
+compiling z_rcc.c...
+compiling z_kinematics.c...
+compiling system_stm32f10x.c...
+compiling z_ps2.c...
+compiling stm32f10x_it.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_wwdg.c...
+compiling stm32f10x_i2c.c...
+compiling z_gpio.c...
+compiling stm32f10x_adc.c...
+compiling z_timer.c...
+compiling z_usart.c...
+compiling z_adc.c...
+compiling z_w25q64.c...
+compiling z_sensor.c...
+..\USER\z_sensor.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\src\z_actiongroupcontrol.h(6): warning:  #47-D: incompatible redefinition of macro "ACTION_SIZE"  (declared at line 18 of "..\USER\z_main.h")
+  #define ACTION_SIZE					256
+..\src\z_actiongroupcontrol.h(7): warning:  #47-D: incompatible redefinition of macro "W25Q64_INFO_ADDR_SAVE_STR"  (declared at line 21 of "..\USER\z_main.h")
+  #define W25Q64_INFO_ADDR_SAVE_STR	(((8<<10)-4)<<10)//(8*1024-4)*1024		//eeprom_infoç»“æž„ä½“å­˜å‚¨çš„ä½ç½®
+..\src\z_actiongroupcontrol.h(8): warning:  #47-D: incompatible redefinition of macro "FLAG_VERIFY"  (declared at line 17 of "..\USER\z_main.h")
+  #define FLAG_VERIFY 				0x38
+..\src\z_actiongroupcontrol.h(52): warning:  #1-D: last line of file ends without a newline
+  #endif 
+..\USER\z_sensor.c(205): warning:  #1-D: last line of file ends without a newline
+  }
+..\USER\z_sensor.c: 6 warnings, 0 errors
+compiling z_oled.c...
+compiling stm32f10x_tim.c...
+compiling z_main.c...
+..\src\z_actiongroupcontrol.h(6): warning:  #47-D: incompatible redefinition of macro "ACTION_SIZE"  (declared at line 18 of "..\USER\z_main.h")
+  #define ACTION_SIZE					256
+..\src\z_actiongroupcontrol.h(7): warning:  #47-D: incompatible redefinition of macro "W25Q64_INFO_ADDR_SAVE_STR"  (declared at line 21 of "..\USER\z_main.h")
+  #define W25Q64_INFO_ADDR_SAVE_STR	(((8<<10)-4)<<10)//(8*1024-4)*1024		//eeprom_infoç»“æž„ä½“å­˜å‚¨çš„ä½ç½®
+..\src\z_actiongroupcontrol.h(8): warning:  #47-D: incompatible redefinition of macro "FLAG_VERIFY"  (declared at line 17 of "..\USER\z_main.h")
+  #define FLAG_VERIFY 				0x38
+..\src\z_actiongroupcontrol.h(52): warning:  #1-D: last line of file ends without a newline
+  #endif 
+..\USER\z_sensor.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\z_main.c(423): warning:  #177-D: variable "i"  was declared but never referenced
+  	int pos, i, index, int1, int2, int3, int4;
+..\USER\z_main.c(423): warning:  #177-D: variable "index"  was declared but never referenced
+  	int pos, i, index, int1, int2, int3, int4;
+..\USER\z_main.c: 7 warnings, 0 errors
+compiling z_ActionGroupControl.c...
+..\src\z_actiongroupcontrol.h(6): warning:  #47-D: incompatible redefinition of macro "ACTION_SIZE"  (declared at line 18 of "..\USER\z_main.h")
+  #define ACTION_SIZE					256
+..\src\z_actiongroupcontrol.h(7): warning:  #47-D: incompatible redefinition of macro "W25Q64_INFO_ADDR_SAVE_STR"  (declared at line 21 of "..\USER\z_main.h")
+  #define W25Q64_INFO_ADDR_SAVE_STR	(((8<<10)-4)<<10)//(8*1024-4)*1024		//eeprom_infoç»“æž„ä½“å­˜å‚¨çš„ä½ç½®
+..\src\z_actiongroupcontrol.h(8): warning:  #47-D: incompatible redefinition of macro "FLAG_VERIFY"  (declared at line 17 of "..\USER\z_main.h")
+  #define FLAG_VERIFY 				0x38
+..\src\z_actiongroupcontrol.h(52): warning:  #1-D: last line of file ends without a newline
+  #endif 
+..\src\z_ActionGroupControl.c(289): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  	w25x_write(str, action_index*ACTION_SIZE, strlen(str) + 1);
+..\src\z_ActionGroupControl.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=37972 RO-data=1892 RW-data=208 ZI-data=8216  
+FromELF: creating hex file...
+"..\OUT\Jibot1-32.axf" - 0 Error(s), 18 Warning(s).
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

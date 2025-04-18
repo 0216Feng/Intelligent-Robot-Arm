@@ -1,0 +1,26 @@
+<annotation>
+	<folder>污损塑料</folder>
+	<filename>img_435.jpg</filename>
+	<path>C:\Users\zwx749888\Desktop\污损塑料\img_435.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>474</width>
+		<height>468</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>污损塑料</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>14</xmin>
+			<ymin>35</ymin>
+			<xmax>441</xmax>
+			<ymax>432</ymax>
+		</bndbox>
+	</object>
+</annotation>

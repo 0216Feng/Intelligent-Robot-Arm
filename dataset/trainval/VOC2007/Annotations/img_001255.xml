@@ -1,0 +1,26 @@
+<annotation>
+  <folder>鞋-41</folder>
+  <filename>img_000256.jpg</filename>
+  <path>D:\resize\鞋-41\img_000256.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>2047</width>
+    <height>2047</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>鞋</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>108</xmin>
+        <ymin>463</ymin>
+        <xmax>1696</xmax>
+        <ymax>1954</ymax>
+      </bndbox>
+    </object>
+  </annotation>

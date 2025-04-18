@@ -1,0 +1,26 @@
+<annotation>
+	<folder>筷子</folder>
+	<filename>img_1910.jpg</filename>
+	<path>C:\Users\hwx731336\Desktop\黄明明\筷子\img_1910.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>474</width>
+		<height>474</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>筷子</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>10</xmin>
+			<ymin>51</ymin>
+			<xmax>463</xmax>
+			<ymax>439</ymax>
+		</bndbox>
+	</object>
+</annotation>

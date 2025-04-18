@@ -1,0 +1,26 @@
+<annotation>
+  <folder>软膏-孙双艳</folder>
+  <filename>img_18986.jpg</filename>
+  <path>D:\resize\软膏-孙双艳\img_18986.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>339</width>
+    <height>193</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>过期药物</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>9</xmin>
+        <ymin>68</ymin>
+        <xmax>318</xmax>
+        <ymax>161</ymax>
+      </bndbox>
+    </object>
+  </annotation>

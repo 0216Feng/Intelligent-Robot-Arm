@@ -1,0 +1,26 @@
+<annotation>
+  <folder>9</folder>
+  <filename>img_7624.jpg</filename>
+  <path>D:\resize\9\img_7624.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>228</width>
+    <height>309</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>包</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>0</xmin>
+        <ymin>0</ymin>
+        <xmax>216</xmax>
+        <ymax>308</ymax>
+      </bndbox>
+    </object>
+  </annotation>

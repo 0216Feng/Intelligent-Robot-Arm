@@ -1,0 +1,26 @@
+<annotation>
+  <folder>软膏-孙双艳</folder>
+  <filename>img_18668.jpg</filename>
+  <path>D:\resize\软膏-孙双艳\img_18668.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>408</width>
+    <height>266</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>软膏</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>21</xmin>
+        <ymin>31</ymin>
+        <xmax>406</xmax>
+        <ymax>168</ymax>
+      </bndbox>
+    </object>
+  </annotation>

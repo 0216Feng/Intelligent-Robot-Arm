@@ -1,0 +1,26 @@
+<annotation>
+  <folder>5</folder>
+  <filename>img_1849.jpg</filename>
+  <path>D:\resize\5\img_1849.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>566</width>
+    <height>494</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>筷子</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>7</xmin>
+        <ymin>73</ymin>
+        <xmax>547</xmax>
+        <ymax>383</ymax>
+      </bndbox>
+    </object>
+  </annotation>

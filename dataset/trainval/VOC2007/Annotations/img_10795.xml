@@ -1,0 +1,26 @@
+<annotation>
+	<folder>旧衣服</folder>
+	<filename>img_10795.jpg</filename>
+	<path>C:\Users\hwx731336\Desktop\黄明明\旧衣服\img_10795.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>434</width>
+		<height>463</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>旧衣服</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>9</ymin>
+			<xmax>417</xmax>
+			<ymax>457</ymax>
+		</bndbox>
+	</object>
+</annotation>

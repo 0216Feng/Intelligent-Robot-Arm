@@ -1,0 +1,26 @@
+<annotation>
+	<folder>菜帮菜叶</folder>
+	<filename>img_5415.jpg</filename>
+	<path>C:\Users\zwx652983\Desktop\lj\菜帮菜叶\img_5415.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>853</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>菜帮菜叶</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>640</xmax>
+			<ymax>853</ymax>
+		</bndbox>
+	</object>
+</annotation>

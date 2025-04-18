@@ -1,0 +1,26 @@
+<annotation>
+	<folder>塑料衣架</folder>
+	<filename>img_9544.jpg</filename>
+	<path>C:\Users\zwx652983\Desktop\lj\塑料衣架\img_9544.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>685</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>塑料衣架</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>15</xmin>
+			<ymin>43</ymin>
+			<xmax>1004</xmax>
+			<ymax>565</ymax>
+		</bndbox>
+	</object>
+</annotation>

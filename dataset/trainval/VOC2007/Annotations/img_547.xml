@@ -1,0 +1,26 @@
+<annotation>
+  <folder>塑料垃圾</folder>
+  <filename>img_547.jpg</filename>
+  <path>D:\resize\塑料垃圾\img_547.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>768</width>
+    <height>1024</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>污损塑料</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>1</xmin>
+        <ymin>2</ymin>
+        <xmax>766</xmax>
+        <ymax>972</ymax>
+      </bndbox>
+    </object>
+  </annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>调料瓶</folder>
+	<filename>img_15467.jpg</filename>
+	<path>C:\Users\zwx749888\Desktop\调料瓶\img_15467.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>446</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>调料瓶</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>31</xmin>
+			<ymin>1</ymin>
+			<xmax>382</xmax>
+			<ymax>971</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>塑料玩具</folder>
+	<filename>img_8610.jpg</filename>
+	<path>C:\Users\zwx652983\Desktop\lj\塑料玩具\img_8610.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>576</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>塑料玩具</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>97</xmin>
+			<ymin>166</ymin>
+			<xmax>425</xmax>
+			<ymax>362</ymax>
+		</bndbox>
+	</object>
+</annotation>

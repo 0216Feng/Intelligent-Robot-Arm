@@ -1,0 +1,26 @@
+<annotation>
+	<folder>饮料瓶</folder>
+	<filename>img_18163.jpg</filename>
+	<path>C:\Users\zwx749888\Desktop\饮料瓶\img_18163.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>768</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>饮料瓶</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>310</xmin>
+			<ymin>337</ymin>
+			<xmax>653</xmax>
+			<ymax>687</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,40 @@
+// the test
+digraph model {
+	images [label=images color=black]
+	NV12TOYUV444 [label="name: NV12TOYUV444
+type: BPU" color=black fillcolor=cadetblue shape=box style=filled]
+	torch_jit_subgraph_0 [label="name: torch_jit_subgraph_0
+type: BPU" color=black fillcolor=cadetblue shape=box style=filled]
+	"model.23cv2.0cv2.0.2Conv_output_0_HzDequantize" [label="name: model.23cv2.0cv2.0.2Conv_output_0_HzDequantize
+type: Dequantize" color=black fillcolor=lightgrey shape=box style=filled]
+	"model.23cv3.0cv3.0.2Conv_output_0_HzDequantize" [label="name: model.23cv3.0cv3.0.2Conv_output_0_HzDequantize
+type: Dequantize" color=black fillcolor=lightgrey shape=box style=filled]
+	"model.23cv2.1cv2.1.2Conv_output_0_HzDequantize" [label="name: model.23cv2.1cv2.1.2Conv_output_0_HzDequantize
+type: Dequantize" color=black fillcolor=lightgrey shape=box style=filled]
+	"model.23cv3.1cv3.1.2Conv_output_0_HzDequantize" [label="name: model.23cv3.1cv3.1.2Conv_output_0_HzDequantize
+type: Dequantize" color=black fillcolor=lightgrey shape=box style=filled]
+	"model.23cv2.2cv2.2.2Conv_output_0_HzDequantize" [label="name: model.23cv2.2cv2.2.2Conv_output_0_HzDequantize
+type: Dequantize" color=black fillcolor=lightgrey shape=box style=filled]
+	"model.23cv3.2cv3.2.2Conv_output_0_HzDequantize" [label="name: model.23cv3.2cv3.2.2Conv_output_0_HzDequantize
+type: Dequantize" color=black fillcolor=lightgrey shape=box style=filled]
+	output0 [label=output0 color=black]
+	469 [label=469 color=black]
+	477 [label=477 color=black]
+	491 [label=491 color=black]
+	505 [label=505 color=black]
+	519 [label=519 color=black]
+	images -> NV12TOYUV444 [label="1x640x640x3 / 2, NV12, UINT8" color=red]
+	NV12TOYUV444 -> torch_jit_subgraph_0 [label="1x640x640x3, YUV444, NHWC, INT8" color=red]
+	torch_jit_subgraph_0 -> "model.23cv2.0cv2.0.2Conv_output_0_HzDequantize" [label="1x80x80x64, INT32" color=red]
+	torch_jit_subgraph_0 -> "model.23cv3.0cv3.0.2Conv_output_0_HzDequantize" [label="1x80x80x24, INT32" color=red]
+	torch_jit_subgraph_0 -> "model.23cv2.1cv2.1.2Conv_output_0_HzDequantize" [label="1x40x40x64, INT32" color=red]
+	torch_jit_subgraph_0 -> "model.23cv3.1cv3.1.2Conv_output_0_HzDequantize" [label="1x40x40x24, INT32" color=red]
+	torch_jit_subgraph_0 -> "model.23cv2.2cv2.2.2Conv_output_0_HzDequantize" [label="1x20x20x64, INT32" color=red]
+	torch_jit_subgraph_0 -> "model.23cv3.2cv3.2.2Conv_output_0_HzDequantize" [label="1x20x20x24, INT32" color=red]
+	"model.23cv2.0cv2.0.2Conv_output_0_HzDequantize" -> output0 [label="1x80x80x64, FLOAT32, " color=red]
+	"model.23cv3.0cv3.0.2Conv_output_0_HzDequantize" -> 491 [label="1x80x80x24, FLOAT32, " color=red]
+	"model.23cv2.1cv2.1.2Conv_output_0_HzDequantize" -> 469 [label="1x40x40x64, FLOAT32, " color=red]
+	"model.23cv3.1cv3.1.2Conv_output_0_HzDequantize" -> 505 [label="1x40x40x24, FLOAT32, " color=red]
+	"model.23cv2.2cv2.2.2Conv_output_0_HzDequantize" -> 477 [label="1x20x20x64, FLOAT32, " color=red]
+	"model.23cv3.2cv3.2.2Conv_output_0_HzDequantize" -> 519 [label="1x20x20x24, FLOAT32, " color=red]
+}

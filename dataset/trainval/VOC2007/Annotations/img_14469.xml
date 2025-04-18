@@ -1,0 +1,26 @@
+<annotation>
+	<folder>鞋</folder>
+	<filename>img_14469.jpg</filename>
+	<path>C:\Users\zwx749888\Desktop\鞋\img_14469.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>182</width>
+		<height>459</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>鞋</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>29</xmin>
+			<ymin>35</ymin>
+			<xmax>182</xmax>
+			<ymax>432</ymax>
+		</bndbox>
+	</object>
+</annotation>

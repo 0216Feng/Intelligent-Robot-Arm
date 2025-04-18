@@ -1,0 +1,26 @@
+<annotation>
+	<folder>蛋壳</folder>
+	<filename>img_6216.jpg</filename>
+	<path>C:\Users\zwx652983\Desktop\lj\蛋壳\img_6216.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>394</width>
+		<height>469</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>蛋壳</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>55</xmin>
+			<ymin>115</ymin>
+			<xmax>292</xmax>
+			<ymax>412</ymax>
+		</bndbox>
+	</object>
+</annotation>

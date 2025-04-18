@@ -1,0 +1,26 @@
+<annotation>
+	<folder>鱼骨</folder>
+	<filename>img_6276.jpg</filename>
+	<path>C:\Users\zwx652983\Desktop\lj\鱼骨\img_6276.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>248</width>
+		<height>143</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>鱼骨</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>16</xmin>
+			<ymin>25</ymin>
+			<xmax>228</xmax>
+			<ymax>117</ymax>
+		</bndbox>
+	</object>
+</annotation>

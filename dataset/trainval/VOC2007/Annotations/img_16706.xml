@@ -1,0 +1,26 @@
+<annotation>
+	<folder>金属食品罐</folder>
+	<filename>img_16706.jpg</filename>
+	<path>C:\Users\hwx731336\Desktop\黄明明\金属食品罐-50\金属食品罐\img_16706.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>378</width>
+		<height>297</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>金属食品罐</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>62</xmin>
+			<ymin>50</ymin>
+			<xmax>353</xmax>
+			<ymax>268</ymax>
+		</bndbox>
+	</object>
+</annotation>

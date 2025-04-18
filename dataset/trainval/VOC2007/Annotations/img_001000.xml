@@ -1,0 +1,26 @@
+<annotation>
+  <folder>充电宝-30</folder>
+  <filename>img_001000.jpg</filename>
+  <path>D:\resize\充电宝-30\img_001000.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>2047</width>
+    <height>2047</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>书籍纸张</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>40</xmin>
+        <ymin>97</ymin>
+        <xmax>1903</xmax>
+        <ymax>1953</ymax>
+      </bndbox>
+    </object>
+  </annotation>

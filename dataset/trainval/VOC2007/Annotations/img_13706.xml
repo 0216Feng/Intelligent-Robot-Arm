@@ -1,0 +1,26 @@
+<annotation>
+  <folder>16</folder>
+  <filename>img_13706.jpg</filename>
+  <path>D:\resize\16\img_13706.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>300</width>
+    <height>400</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>玻璃器皿</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>106</xmin>
+        <ymin>8</ymin>
+        <xmax>235</xmax>
+        <ymax>367</ymax>
+      </bndbox>
+    </object>
+  </annotation>

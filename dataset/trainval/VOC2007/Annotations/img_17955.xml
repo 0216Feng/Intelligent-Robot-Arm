@@ -1,0 +1,26 @@
+<annotation>
+  <folder>19</folder>
+  <filename>img_17955.jpg</filename>
+  <path>D:\resize\19\img_17955.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>236</width>
+    <height>292</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>饮料瓶</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>73</xmin>
+        <ymin>0</ymin>
+        <xmax>235</xmax>
+        <ymax>237</ymax>
+      </bndbox>
+    </object>
+  </annotation>

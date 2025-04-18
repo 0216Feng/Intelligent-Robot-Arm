@@ -1,0 +1,26 @@
+<annotation>
+	<folder>纸盒纸箱</folder>
+	<filename>img_15078.jpg</filename>
+	<path>C:\Users\zwx749888\Desktop\纸盒纸箱\img_15078.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>444</width>
+		<height>394</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>纸盒纸箱</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>25</ymin>
+			<xmax>444</xmax>
+			<ymax>394</ymax>
+		</bndbox>
+	</object>
+</annotation>

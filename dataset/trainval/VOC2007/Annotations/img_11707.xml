@@ -1,0 +1,26 @@
+<annotation>
+	<folder>枕头</folder>
+	<filename>img_11707.jpg</filename>
+	<path>C:\Users\zwx749888\Desktop\枕头\img_11707.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>400</width>
+		<height>225</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>枕头</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>7</ymin>
+			<xmax>389</xmax>
+			<ymax>225</ymax>
+		</bndbox>
+	</object>
+</annotation>

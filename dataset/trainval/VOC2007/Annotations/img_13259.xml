@@ -1,0 +1,26 @@
+<annotation>
+  <folder>洗护用品-孙双艳</folder>
+  <filename>img_13259.jpg</filename>
+  <path>D:\resize\洗护用品-孙双艳\img_13259.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>577</width>
+    <height>1024</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>洗护用品</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>130</xmin>
+        <ymin>243</ymin>
+        <xmax>406</xmax>
+        <ymax>707</ymax>
+      </bndbox>
+    </object>
+  </annotation>

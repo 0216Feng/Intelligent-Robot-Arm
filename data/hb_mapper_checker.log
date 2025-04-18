@@ -1,0 +1,278 @@
+2025-04-12 21:07:47,006 file: tool_utils.py func: tool_utils line No: 77 log will be stored in /data/hb_mapper_checker.log
+2025-04-12 21:07:47,007 file: hb_mapper.py func: hb_mapper line No: 72 Start hb_mapper....
+2025-04-12 21:07:47,008 file: hb_mapper.py func: hb_mapper line No: 73 hbdk version 3.49.14
+2025-04-12 21:07:47,009 file: hb_mapper.py func: hb_mapper line No: 74 horizon_nn version 1.0.6.3
+2025-04-12 21:07:47,010 file: hb_mapper.py func: hb_mapper line No: 75 hb_mapper version 1.23.8
+2025-04-12 21:07:47,349 file: onnx_parser.py func: onnx_parser line No: 39 Model input names: ['images']
+2025-04-12 21:07:47,352 file: hb_mapper_checker.py func: hb_mapper_checker line No: 106 Model type: onnx
+2025-04-12 21:07:47,355 file: hb_mapper_checker.py func: hb_mapper_checker line No: 107 march: bayes-e
+2025-04-12 21:07:47,356 file: hb_mapper_checker.py func: hb_mapper_checker line No: 112 input names []
+2025-04-12 21:07:47,358 file: hb_mapper_checker.py func: hb_mapper_checker line No: 113 input shapes {}
+2025-04-12 21:07:47,359 file: hb_mapper_checker.py func: hb_mapper_checker line No: 119 Begin model checking....
+2025-04-12 21:07:47,373 file: build.py func: build line No: 36 Start to Horizon NN Model Convert.
+2025-04-12 21:07:47,375 file: model_debug.py func: model_debug line No: 61 Loading horizon_nn debug methods:[]
+2025-04-12 21:07:47,377 file: build.py func: build line No: 146 The specified model compilation architecture: bayes-e.
+2025-04-12 21:07:47,379 file: build.py func: build line No: 148 The specified model compilation optimization parameters: [].
+2025-04-12 21:07:47,647 file: build.py func: build line No: 36 Start to prepare the onnx model.
+2025-04-12 21:07:47,649 file: utils.py func: utils line No: 53 Input ONNX Model Information:
+ONNX IR version:          6
+Opset version:            ['ai.onnx v11', 'horizon v1']
+Producer:                 pytorch v2.0.1
+Domain:                   None
+Model version:            None
+Graph input:
+    images:               shape=[1, 3, 640, 640], dtype=FLOAT32
+Graph output:
+    output0:              shape=[1, 80, 80, 64], dtype=FLOAT32
+    469:                  shape=[1, 40, 40, 64], dtype=FLOAT32
+    477:                  shape=[1, 20, 20, 64], dtype=FLOAT32
+    491:                  shape=[1, 80, 80, 24], dtype=FLOAT32
+    505:                  shape=[1, 40, 40, 24], dtype=FLOAT32
+    519:                  shape=[1, 20, 20, 24], dtype=FLOAT32
+2025-04-12 21:07:47,848 file: build.py func: build line No: 39 End to prepare the onnx model.
+2025-04-12 21:07:48,092 file: build.py func: build line No: 197 Saving model: ./.hb_check/original_float_model.onnx.
+2025-04-12 21:07:48,099 file: build.py func: build line No: 36 Start to optimize the model.
+2025-04-12 21:07:48,544 file: build.py func: build line No: 39 End to optimize the model.
+2025-04-12 21:07:48,795 file: build.py func: build line No: 197 Saving model: ./.hb_check/optimized_float_model.onnx.
+2025-04-12 21:07:48,796 file: build.py func: build line No: 36 Start to calibrate the model.
+2025-04-12 21:07:49,701 file: build.py func: build line No: 39 End to calibrate the model.
+2025-04-12 21:07:49,992 file: build.py func: build line No: 197 Saving model: ./.hb_check/calibrated_model.onnx.
+2025-04-12 21:07:49,994 file: build.py func: build line No: 36 Start to quantize the model.
+2025-04-12 21:07:51,235 file: build.py func: build line No: 39 End to quantize the model.
+2025-04-12 21:07:51,823 file: build.py func: build line No: 197 Saving model: ./.hb_check/quantized_model.onnx.
+2025-04-12 21:07:52,586 file: build.py func: build line No: 36 Start to compile the model with march bayes-e.
+2025-04-12 21:07:52,933 file: hybrid_build.py func: hybrid_build line No: 133 Compile submodel: torch_jit_subgraph_0
+2025-04-12 21:07:53,192 file: hbdk_cc.py func: hbdk_cc line No: 115 hbdk-cc parameters:['--input-layout', 'NHWC', '--output-layout', 'NHWC']
+2025-04-12 21:07:53,194 file: hbdk_cc.py func: hbdk_cc line No: 116 hbdk-cc command used:hbdk-cc -f hbir -m /tmp/tmpgk97r5lw/torch_jit_subgraph_0.hbir -o /tmp/tmpgk97r5lw/torch_jit_subgraph_0.hbm --march bayes-e --progressbar --input-layout NHWC --output-layout NHWC
+2025-04-12 21:07:53,750 file: tool_utils.py func: tool_utils line No: 326 consumed time 0.477979
+2025-04-12 21:07:53,889 file: tool_utils.py func: tool_utils line No: 326 FPS=28.74, latency = 34792.5 us, DDR = 213869632 bytes   (see ./.hb_check/torch_jit_subgraph_0.html)
+2025-04-12 21:07:53,892 file: hybrid_build.py func: hybrid_build line No: 133 Compile submodel: torch_jit_subgraph_1
+2025-04-12 21:07:54,126 file: hbdk_cc.py func: hbdk_cc line No: 115 hbdk-cc parameters:['--input-layout', 'NHWC', '--output-layout', 'NHWC']
+2025-04-12 21:07:54,128 file: hbdk_cc.py func: hbdk_cc line No: 116 hbdk-cc command used:hbdk-cc -f hbir -m /tmp/tmpgk97r5lw/torch_jit_subgraph_1.hbir -o /tmp/tmpgk97r5lw/torch_jit_subgraph_1.hbm --march bayes-e --progressbar --input-layout NHWC --output-layout NHWC
+2025-04-12 21:07:54,697 file: tool_utils.py func: tool_utils line No: 326 consumed time 0.51149
+2025-04-12 21:07:54,806 file: tool_utils.py func: tool_utils line No: 326 FPS=30.17, latency = 33141.9 us, DDR = 203385408 bytes   (see ./.hb_check/torch_jit_subgraph_1.html)
+2025-04-12 21:07:55,033 file: build.py func: build line No: 39 End to compile the model with march bayes-e.
+2025-04-12 21:07:55,136 file: print_node_info.py func: print_node_info line No: 57 The converted model node information:
+========================================================================================================
+Node                                         ON   Subgraph  Type                       In/Out DataType  
+--------------------------------------------------------------------------------------------------------
+/model.0/conv/Conv                           BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.0/act/Mul                             BPU  id(0)     HzLut                      int8/int8        
+/model.1/conv/Conv                           BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.1/act/Mul                             BPU  id(0)     HzLut                      int8/int8        
+/model.2/cv1/conv/Conv                       BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.2/cv1/act/Mul                         BPU  id(0)     HzLut                      int8/int8        
+/model.2/Split                               BPU  id(0)     Split                      int8/int8        
+/model.2/m.0/cv1/conv/Conv                   BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.2/m.0/cv1/act/Mul                     BPU  id(0)     HzLut                      int8/int8        
+/model.2/m.0/cv2/conv/Conv                   BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.2/m.0/cv2/act/Mul                     BPU  id(0)     HzLut                      int8/int8        
+UNIT_CONV_FOR_/model.2/m.0/Add               BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.2/Concat                              BPU  id(0)     Concat                     int8/int8        
+/model.2/cv2/conv/Conv                       BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.2/cv2/act/Mul                         BPU  id(0)     HzLut                      int8/int8        
+/model.3/conv/Conv                           BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.3/act/Mul                             BPU  id(0)     HzLut                      int8/int8        
+/model.4/cv1/conv/Conv                       BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.4/cv1/act/Mul                         BPU  id(0)     HzLut                      int8/int8        
+/model.4/Split                               BPU  id(0)     Split                      int8/int8        
+/model.4/m.0/cv1/conv/Conv                   BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.4/m.0/cv1/act/Mul                     BPU  id(0)     HzLut                      int8/int8        
+/model.4/m.0/cv2/conv/Conv                   BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.4/m.0/cv2/act/Mul                     BPU  id(0)     HzLut                      int8/int8        
+UNIT_CONV_FOR_/model.4/m.0/Add               BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.4/Concat                              BPU  id(0)     Concat                     int8/int8        
+/model.4/cv2/conv/Conv                       BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.4/cv2/act/Mul                         BPU  id(0)     HzLut                      int8/int8        
+/model.5/conv/Conv                           BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.5/act/Mul                             BPU  id(0)     HzLut                      int8/int8        
+/model.6/cv1/conv/Conv                       BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.6/cv1/act/Mul                         BPU  id(0)     HzLut                      int8/int8        
+/model.6/Split                               BPU  id(0)     Split                      int8/int8        
+/model.6/m.0/cv1/conv/Conv                   BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.6/m.0/cv2/conv/Conv                   BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.6/m.0/cv1/act/Mul                     BPU  id(0)     HzLut                      int8/int8        
+/model.6/m.0/cv2/act/Mul                     BPU  id(0)     HzLut                      int8/int8        
+/model.6/m.0/m/m.0/cv1/conv/Conv             BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.6/m.0/m/m.0/cv1/act/Mul               BPU  id(0)     HzLut                      int8/int8        
+/model.6/m.0/m/m.0/cv2/conv/Conv             BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.6/m.0/m/m.0/cv2/act/Mul               BPU  id(0)     HzLut                      int8/int8        
+UNIT_CONV_FOR_/model.6/m.0/m/m.0/Add         BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.6/m.0/m/m.1/cv1/conv/Conv             BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.6/m.0/m/m.1/cv1/act/Mul               BPU  id(0)     HzLut                      int8/int8        
+/model.6/m.0/m/m.1/cv2/conv/Conv             BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.6/m.0/m/m.1/cv2/act/Mul               BPU  id(0)     HzLut                      int8/int8        
+UNIT_CONV_FOR_/model.6/m.0/m/m.1/Add         BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.6/m.0/Concat                          BPU  id(0)     Concat                     int8/int8        
+/model.6/m.0/cv3/conv/Conv                   BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.6/m.0/cv3/act/Mul                     BPU  id(0)     HzLut                      int8/int8        
+/model.6/Concat                              BPU  id(0)     Concat                     int8/int8        
+/model.6/cv2/conv/Conv                       BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.6/cv2/act/Mul                         BPU  id(0)     HzLut                      int8/int8        
+/model.7/conv/Conv                           BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.7/act/Mul                             BPU  id(0)     HzLut                      int8/int8        
+/model.8/cv1/conv/Conv                       BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.8/cv1/act/Mul                         BPU  id(0)     HzLut                      int8/int8        
+/model.8/Split                               BPU  id(0)     Split                      int8/int8        
+/model.8/m.0/cv1/conv/Conv                   BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.8/m.0/cv2/conv/Conv                   BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.8/m.0/cv1/act/Mul                     BPU  id(0)     HzLut                      int8/int8        
+/model.8/m.0/cv2/act/Mul                     BPU  id(0)     HzLut                      int8/int8        
+/model.8/m.0/m/m.0/cv1/conv/Conv             BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.8/m.0/m/m.0/cv1/act/Mul               BPU  id(0)     HzLut                      int8/int8        
+/model.8/m.0/m/m.0/cv2/conv/Conv             BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.8/m.0/m/m.0/cv2/act/Mul               BPU  id(0)     HzLut                      int8/int8        
+UNIT_CONV_FOR_/model.8/m.0/m/m.0/Add         BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.8/m.0/m/m.1/cv1/conv/Conv             BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.8/m.0/m/m.1/cv1/act/Mul               BPU  id(0)     HzLut                      int8/int8        
+/model.8/m.0/m/m.1/cv2/conv/Conv             BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.8/m.0/m/m.1/cv2/act/Mul               BPU  id(0)     HzLut                      int8/int8        
+UNIT_CONV_FOR_/model.8/m.0/m/m.1/Add         BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.8/m.0/Concat                          BPU  id(0)     Concat                     int8/int8        
+/model.8/m.0/cv3/conv/Conv                   BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.8/m.0/cv3/act/Mul                     BPU  id(0)     HzLut                      int8/int8        
+/model.8/Concat                              BPU  id(0)     Concat                     int8/int8        
+/model.8/cv2/conv/Conv                       BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.8/cv2/act/Mul                         BPU  id(0)     HzLut                      int8/int8        
+/model.9/cv1/conv/Conv                       BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.9/cv1/act/Mul                         BPU  id(0)     HzLut                      int8/int8        
+/model.9/m/MaxPool                           BPU  id(0)     HzQuantizedMaxPool         int8/int8        
+/model.9/m_1/MaxPool                         BPU  id(0)     HzQuantizedMaxPool         int8/int8        
+/model.9/m_2/MaxPool                         BPU  id(0)     HzQuantizedMaxPool         int8/int8        
+/model.9/Concat                              BPU  id(0)     Concat                     int8/int8        
+/model.9/cv2/conv/Conv                       BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.9/cv2/act/Mul                         BPU  id(0)     HzLut                      int8/int8        
+/model.10/cv1/conv/Conv                      BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.10/cv1/act/Mul                        BPU  id(0)     HzLut                      int8/int8        
+/model.10/Split                              BPU  id(0)     Split                      int8/int8        
+/model.10/m/m.0/attn/qkv/conv/Conv           BPU  id(0)     HzSQuantizedConv           int8/int8        
+/model.10/m/m.0/attn/Reshape                 BPU  id(0)     Reshape                    int8/int8        
+/model.10/m/m.0/attn/Split                   BPU  id(0)     Split                      int8/int8        
+/model.10/m/m.0/attn/Transpose               BPU  id(0)     Transpose                  int8/int8        
+/model.10/m/m.0/attn/Reshape_2               BPU  id(0)     Reshape                    int8/int8        
+/model.10/m/m.0/attn/MatMul                  BPU  id(0)     HzSQuantizedMatmul         int8/int8        
+/model.10/m/m.0/attn/Mul                     BPU  id(0)     HzSQuantizedConv           int8/int32       
+/model.10/m/m.0/attn/Softmax                 CPU  --        Softmax                    float/float      
+/model.10/m/m.0/attn/Transpose_1             BPU  id(1)     Transpose                  int8/int8        
+/model.10/m/m.0/attn/MatMul_1                BPU  id(1)     HzSQuantizedMatmul         int8/int8        
+/model.10/m/m.0/attn/Reshape_1               BPU  id(1)     Reshape                    int8/int8        
+/model.10/m/m.0/attn/pe/conv/Conv            BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.10/m/m.0/attn/proj/conv/Conv          BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.10/m/m.0/ffn/ffn.0/conv/Conv          BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.10/m/m.0/ffn/ffn.0/act/Mul            BPU  id(1)     HzLut                      int8/int8        
+/model.10/m/m.0/ffn/ffn.1/conv/Conv          BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.10/Concat                             BPU  id(1)     Concat                     int8/int8        
+/model.10/cv2/conv/Conv                      BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.10/cv2/act/Mul                        BPU  id(1)     HzLut                      int8/int8        
+/model.11/Resize                             BPU  id(1)     HzQuantizedResizeUpsample  int8/int8        
+/model.12/Concat                             BPU  id(1)     Concat                     int8/int8        
+/model.13/cv1/conv/Conv                      BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.13/cv1/act/Mul                        BPU  id(1)     HzLut                      int8/int8        
+/model.13/Split                              BPU  id(1)     Split                      int8/int8        
+/model.13/m.0/cv1/conv/Conv                  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.13/m.0/cv1/act/Mul                    BPU  id(1)     HzLut                      int8/int8        
+/model.13/m.0/cv2/conv/Conv                  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.13/m.0/cv2/act/Mul                    BPU  id(1)     HzLut                      int8/int8        
+UNIT_CONV_FOR_/model.13/m.0/Add              BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.13/Concat                             BPU  id(1)     Concat                     int8/int8        
+/model.13/cv2/conv/Conv                      BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.13/cv2/act/Mul                        BPU  id(1)     HzLut                      int8/int8        
+/model.14/Resize                             BPU  id(1)     HzQuantizedResizeUpsample  int8/int8        
+/model.15/Concat                             BPU  id(1)     Concat                     int8/int8        
+/model.16/cv1/conv/Conv                      BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.16/cv1/act/Mul                        BPU  id(1)     HzLut                      int8/int8        
+/model.16/Split                              BPU  id(1)     Split                      int8/int8        
+/model.16/m.0/cv1/conv/Conv                  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.16/m.0/cv1/act/Mul                    BPU  id(1)     HzLut                      int8/int8        
+/model.16/m.0/cv2/conv/Conv                  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.16/m.0/cv2/act/Mul                    BPU  id(1)     HzLut                      int8/int8        
+UNIT_CONV_FOR_/model.16/m.0/Add              BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.16/Concat                             BPU  id(1)     Concat                     int8/int8        
+/model.16/cv2/conv/Conv                      BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.16/cv2/act/Mul                        BPU  id(1)     HzLut                      int8/int8        
+/model.17/conv/Conv                          BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.23/cv2.0/cv2.0.0/conv/Conv            BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.23/cv3.0/cv3.0.0/cv3.0.0.0/conv/Conv  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.17/act/Mul                            BPU  id(1)     HzLut                      int8/int8        
+/model.23/cv2.0/cv2.0.0/act/Mul              BPU  id(1)     HzLut                      int8/int8        
+/model.23/cv3.0/cv3.0.0/cv3.0.0.0/act/Mul    BPU  id(1)     HzLut                      int8/int8        
+/model.18/Concat                             BPU  id(1)     Concat                     int8/int8        
+/model.23/cv2.0/cv2.0.1/conv/Conv            BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.23/cv3.0/cv3.0.0/cv3.0.0.1/conv/Conv  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.19/cv1/conv/Conv                      BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.23/cv2.0/cv2.0.1/act/Mul              BPU  id(1)     HzLut                      int8/int8        
+/model.23/cv3.0/cv3.0.0/cv3.0.0.1/act/Mul    BPU  id(1)     HzLut                      int8/int8        
+/model.19/cv1/act/Mul                        BPU  id(1)     HzLut                      int8/int8        
+/model.23/cv2.0/cv2.0.2/Conv                 BPU  id(1)     HzSQuantizedConv           int8/int32       
+/model.23/cv3.0/cv3.0.1/cv3.0.1.0/conv/Conv  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.19/Split                              BPU  id(1)     Split                      int8/int8        
+/model.19/m.0/cv1/conv/Conv                  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.23/cv3.0/cv3.0.1/cv3.0.1.0/act/Mul    BPU  id(1)     HzLut                      int8/int8        
+/model.23/cv3.0/cv3.0.1/cv3.0.1.1/conv/Conv  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.19/m.0/cv1/act/Mul                    BPU  id(1)     HzLut                      int8/int8        
+/model.19/m.0/cv2/conv/Conv                  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.23/cv3.0/cv3.0.1/cv3.0.1.1/act/Mul    BPU  id(1)     HzLut                      int8/int8        
+/model.23/cv3.0/cv3.0.2/Conv                 BPU  id(1)     HzSQuantizedConv           int8/int32       
+/model.19/m.0/cv2/act/Mul                    BPU  id(1)     HzLut                      int8/int8        
+UNIT_CONV_FOR_/model.19/m.0/Add              BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.19/Concat                             BPU  id(1)     Concat                     int8/int8        
+/model.19/cv2/conv/Conv                      BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.19/cv2/act/Mul                        BPU  id(1)     HzLut                      int8/int8        
+/model.20/conv/Conv                          BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.23/cv2.1/cv2.1.0/conv/Conv            BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.23/cv3.1/cv3.1.0/cv3.1.0.0/conv/Conv  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.20/act/Mul                            BPU  id(1)     HzLut                      int8/int8        
+/model.23/cv2.1/cv2.1.0/act/Mul              BPU  id(1)     HzLut                      int8/int8        
+/model.23/cv3.1/cv3.1.0/cv3.1.0.0/act/Mul    BPU  id(1)     HzLut                      int8/int8        
+/model.21/Concat                             BPU  id(1)     Concat                     int8/int8        
+/model.23/cv2.1/cv2.1.1/conv/Conv            BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.23/cv3.1/cv3.1.0/cv3.1.0.1/conv/Conv  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.22/cv1/conv/Conv                      BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.23/cv2.1/cv2.1.1/act/Mul              BPU  id(1)     HzLut                      int8/int8        
+/model.23/cv3.1/cv3.1.0/cv3.1.0.1/act/Mul    BPU  id(1)     HzLut                      int8/int8        
+/model.22/cv1/act/Mul                        BPU  id(1)     HzLut                      int8/int8        
+/model.23/cv2.1/cv2.1.2/Conv                 BPU  id(1)     HzSQuantizedConv           int8/int32       
+/model.23/cv3.1/cv3.1.1/cv3.1.1.0/conv/Conv  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.22/Split                              BPU  id(1)     Split                      int8/int8        
+/model.22/m.0/cv1/conv/Conv                  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.22/m.0/cv2/conv/Conv                  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.23/cv3.1/cv3.1.1/cv3.1.1.0/act/Mul    BPU  id(1)     HzLut                      int8/int8        
+/model.23/cv3.1/cv3.1.1/cv3.1.1.1/conv/Conv  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.22/m.0/cv1/act/Mul                    BPU  id(1)     HzLut                      int8/int8        
+/model.22/m.0/cv2/act/Mul                    BPU  id(1)     HzLut                      int8/int8        
+/model.22/m.0/m/m.0/cv1/conv/Conv            BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.23/cv3.1/cv3.1.1/cv3.1.1.1/act/Mul    BPU  id(1)     HzLut                      int8/int8        
+/model.23/cv3.1/cv3.1.2/Conv                 BPU  id(1)     HzSQuantizedConv           int8/int32       
+/model.22/m.0/m/m.0/cv1/act/Mul              BPU  id(1)     HzLut                      int8/int8        
+/model.22/m.0/m/m.0/cv2/conv/Conv            BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.22/m.0/m/m.0/cv2/act/Mul              BPU  id(1)     HzLut                      int8/int8        
+UNIT_CONV_FOR_/model.22/m.0/m/m.0/Add        BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.22/m.0/m/m.1/cv1/conv/Conv            BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.22/m.0/m/m.1/cv1/act/Mul              BPU  id(1)     HzLut                      int8/int8        
+/model.22/m.0/m/m.1/cv2/conv/Conv            BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.22/m.0/m/m.1/cv2/act/Mul              BPU  id(1)     HzLut                      int8/int8        
+UNIT_CONV_FOR_/model.22/m.0/m/m.1/Add        BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.22/m.0/Concat                         BPU  id(1)     Concat                     int8/int8        
+/model.22/m.0/cv3/conv/Conv                  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.22/m.0/cv3/act/Mul                    BPU  id(1)     HzLut                      int8/int8        
+/model.22/Concat                             BPU  id(1)     Concat                     int8/int8        
+/model.22/cv2/conv/Conv                      BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.22/cv2/act/Mul                        BPU  id(1)     HzLut                      int8/int8        
+/model.23/cv2.2/cv2.2.0/conv/Conv            BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.23/cv3.2/cv3.2.0/cv3.2.0.0/conv/Conv  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.23/cv2.2/cv2.2.0/act/Mul              BPU  id(1)     HzLut                      int8/int8        
+/model.23/cv3.2/cv3.2.0/cv3.2.0.0/act/Mul    BPU  id(1)     HzLut                      int8/int8        
+/model.23/cv2.2/cv2.2.1/conv/Conv            BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.23/cv3.2/cv3.2.0/cv3.2.0.1/conv/Conv  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.23/cv2.2/cv2.2.1/act/Mul              BPU  id(1)     HzLut                      int8/int8        
+/model.23/cv3.2/cv3.2.0/cv3.2.0.1/act/Mul    BPU  id(1)     HzLut                      int8/int8        
+/model.23/cv2.2/cv2.2.2/Conv                 BPU  id(1)     HzSQuantizedConv           int8/int32       
+/model.23/cv3.2/cv3.2.1/cv3.2.1.0/conv/Conv  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.23/cv3.2/cv3.2.1/cv3.2.1.0/act/Mul    BPU  id(1)     HzLut                      int8/int8        
+/model.23/cv3.2/cv3.2.1/cv3.2.1.1/conv/Conv  BPU  id(1)     HzSQuantizedConv           int8/int8        
+/model.23/cv3.2/cv3.2.1/cv3.2.1.1/act/Mul    BPU  id(1)     HzLut                      int8/int8        
+/model.23/cv3.2/cv3.2.2/Conv                 BPU  id(1)     HzSQuantizedConv           int8/int32
+2025-04-12 21:07:55,141 file: build.py func: build line No: 39 End to Horizon NN Model Convert.
+2025-04-12 21:07:55,145 file: onnx2horizonrt.py func: onnx2horizonrt line No: 4327 ONNX model output num : 6
+2025-04-12 21:07:55,149 file: onnx2horizonrt.py func: onnx2horizonrt line No: 4061 model_deps_info: {'hb_mapper_version': '1.23.8'}
+2025-04-12 21:07:55,204 file: hb_mapper_checker.py func: hb_mapper_checker line No: 170 End model checking....

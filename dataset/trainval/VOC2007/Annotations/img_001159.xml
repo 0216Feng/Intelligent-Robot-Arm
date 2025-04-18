@@ -1,0 +1,26 @@
+<annotation>
+  <folder>污损塑料-9</folder>
+  <filename>img_000160.jpg</filename>
+  <path>D:\resize\污损塑料-9\img_000160.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>2047</width>
+    <height>2047</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>污损塑料</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>281</xmin>
+        <ymin>259</ymin>
+        <xmax>1542</xmax>
+        <ymax>1884</ymax>
+      </bndbox>
+    </object>
+  </annotation>

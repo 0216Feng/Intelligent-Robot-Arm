@@ -1,0 +1,26 @@
+<annotation>
+  <folder>调料瓶1-孙双艳</folder>
+  <filename>img_16012.jpg</filename>
+  <path>D:\resize\调料瓶1-孙双艳\img_16012.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>768</width>
+    <height>1024</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>调料瓶</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>118</xmin>
+        <ymin>26</ymin>
+        <xmax>538</xmax>
+        <ymax>1009</ymax>
+      </bndbox>
+    </object>
+  </annotation>

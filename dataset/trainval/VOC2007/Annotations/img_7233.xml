@@ -1,0 +1,26 @@
+<annotation>
+  <folder>9</folder>
+  <filename>img_7233.jpg</filename>
+  <path>D:\resize\9\img_7233.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>293</width>
+    <height>220</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>包</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>5</xmin>
+        <ymin>15</ymin>
+        <xmax>282</xmax>
+        <ymax>187</ymax>
+      </bndbox>
+    </object>
+  </annotation>

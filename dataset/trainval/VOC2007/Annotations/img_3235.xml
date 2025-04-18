@@ -1,0 +1,26 @@
+<annotation>
+	<folder>果皮果肉</folder>
+	<filename>img_3235.jpg</filename>
+	<path>C:\Users\hwx731336\Desktop\黄明明\果皮果肉\img_3235.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>532</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>果皮果肉</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>15</xmin>
+			<ymin>12</ymin>
+			<xmax>798</xmax>
+			<ymax>530</ymax>
+		</bndbox>
+	</object>
+</annotation>

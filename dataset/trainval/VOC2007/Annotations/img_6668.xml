@@ -1,0 +1,26 @@
+<annotation>
+  <folder>7</folder>
+  <filename>img_6668.jpg</filename>
+  <path>D:\resize\7\img_6668.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>472</width>
+    <height>285</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>鱼骨</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>6</xmin>
+        <ymin>26</ymin>
+        <xmax>436</xmax>
+        <ymax>284</ymax>
+      </bndbox>
+    </object>
+  </annotation>

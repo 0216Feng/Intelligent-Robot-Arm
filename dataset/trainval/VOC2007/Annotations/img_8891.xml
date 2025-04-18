@@ -1,0 +1,26 @@
+<annotation>
+  <folder>11</folder>
+  <filename>img_8891.jpg</filename>
+  <path>D:\resize\11\img_8891.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>441</width>
+    <height>300</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>塑料器皿</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>101</xmin>
+        <ymin>0</ymin>
+        <xmax>341</xmax>
+        <ymax>273</ymax>
+      </bndbox>
+    </object>
+  </annotation>

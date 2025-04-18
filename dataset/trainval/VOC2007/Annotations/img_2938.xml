@@ -1,0 +1,26 @@
+<annotation>
+  <folder>大骨头</folder>
+  <filename>img_2938.jpg</filename>
+  <path>D:\resize\大骨头\img_2938.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>379</width>
+    <height>192</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>大骨头</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>17</xmin>
+        <ymin>0</ymin>
+        <xmax>377</xmax>
+        <ymax>134</ymax>
+      </bndbox>
+    </object>
+  </annotation>

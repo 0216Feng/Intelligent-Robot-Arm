@@ -1,0 +1,26 @@
+<annotation>
+	<folder>鱼骨</folder>
+	<filename>img_6689.jpg</filename>
+	<path>C:\Users\zwx652983\Desktop\lj\鱼骨\img_6689.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>334</width>
+		<height>229</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>鱼骨</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>83</xmin>
+			<ymin>87</ymin>
+			<xmax>188</xmax>
+			<ymax>214</ymax>
+		</bndbox>
+	</object>
+</annotation>

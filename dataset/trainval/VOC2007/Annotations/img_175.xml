@@ -1,0 +1,26 @@
+<annotation>
+  <folder>一次性快餐盒-孙双艳</folder>
+  <filename>img_175.jpg</filename>
+  <path>D:\resize\一次性快餐盒-孙双艳\img_175.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>502</width>
+    <height>312</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>一次性快餐盒</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>134</xmin>
+        <ymin>113</ymin>
+        <xmax>369</xmax>
+        <ymax>279</ymax>
+      </bndbox>
+    </object>
+  </annotation>

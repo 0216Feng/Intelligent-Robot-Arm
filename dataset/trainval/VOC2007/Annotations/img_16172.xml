@@ -1,0 +1,26 @@
+<annotation>
+	<folder>酒瓶-52</folder>
+	<filename>img_16172.jpg</filename>
+	<path>C:\Users\hwx731336\Desktop\黄明明\酒瓶-52\img_16172.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>727</width>
+		<height>597</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>酒瓶</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>78</xmin>
+			<ymin>88</ymin>
+			<xmax>620</xmax>
+			<ymax>498</ymax>
+		</bndbox>
+	</object>
+</annotation>

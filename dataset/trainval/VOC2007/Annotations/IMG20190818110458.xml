@@ -1,0 +1,26 @@
+<annotation>
+	<folder>1label</folder>
+	<filename>IMG20190818110458.jpg</filename>
+	<path>C:\Users\hwx594248\Desktop\1label\IMG20190818110458.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3120</width>
+		<height>4160</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>金属厨具</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>926</xmin>
+			<ymin>630</ymin>
+			<xmax>2407</xmax>
+			<ymax>4160</ymax>
+		</bndbox>
+	</object>
+</annotation>

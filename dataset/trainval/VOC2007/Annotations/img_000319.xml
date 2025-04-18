@@ -1,0 +1,26 @@
+<annotation>
+  <folder>tangfuming-265</folder>
+  <filename>img_000319.jpg</filename>
+  <path>D:\resize\tangfuming-265\img_000319.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>2048</width>
+    <height>1154</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>花盆</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>792</xmin>
+        <ymin>588</ymin>
+        <xmax>1252</xmax>
+        <ymax>1118</ymax>
+      </bndbox>
+    </object>
+  </annotation>

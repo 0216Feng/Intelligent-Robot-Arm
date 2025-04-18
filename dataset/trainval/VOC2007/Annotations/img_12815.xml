@@ -1,0 +1,26 @@
+<annotation>
+  <folder>15</folder>
+  <filename>img_12815.jpg</filename>
+  <path>D:\resize\15\img_12815.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>1024</width>
+    <height>768</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>洗护用品</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>417</xmin>
+        <ymin>197</ymin>
+        <xmax>557</xmax>
+        <ymax>439</ymax>
+      </bndbox>
+    </object>
+  </annotation>

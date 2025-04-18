@@ -1,0 +1,26 @@
+<annotation>
+	<folder>花盆</folder>
+	<filename>img_13633.jpg</filename>
+	<path>C:\Users\hwx731336\Desktop\黄明明\花盆\img_13633.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>951</width>
+		<height>877</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>花盆</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>216</xmin>
+			<ymin>21</ymin>
+			<xmax>839</xmax>
+			<ymax>851</ymax>
+		</bndbox>
+	</object>
+</annotation>

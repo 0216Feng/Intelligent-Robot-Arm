@@ -1,0 +1,26 @@
+<annotation>
+  <folder>20</folder>
+  <filename>img_18390.jpg</filename>
+  <path>D:\resize\20\img_18390.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>94</width>
+    <height>277</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>干电池</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>7</xmin>
+        <ymin>11</ymin>
+        <xmax>84</xmax>
+        <ymax>270</ymax>
+      </bndbox>
+    </object>
+  </annotation>

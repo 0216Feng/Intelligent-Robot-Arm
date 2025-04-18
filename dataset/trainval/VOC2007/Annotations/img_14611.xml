@@ -1,0 +1,26 @@
+<annotation>
+  <folder>砧板-孙双艳</folder>
+  <filename>img_14611.jpg</filename>
+  <path>D:\resize\砧板-孙双艳\img_14611.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>567</width>
+    <height>445</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>砧板</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>70</xmin>
+        <ymin>54</ymin>
+        <xmax>459</xmax>
+        <ymax>444</ymax>
+      </bndbox>
+    </object>
+  </annotation>

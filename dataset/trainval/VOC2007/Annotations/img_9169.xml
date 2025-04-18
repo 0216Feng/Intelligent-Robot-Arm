@@ -1,0 +1,26 @@
+<annotation>
+	<folder>塑料衣架</folder>
+	<filename>img_9169.jpg</filename>
+	<path>C:\Users\zwx652983\Desktop\lj\塑料衣架\img_9169.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1009</width>
+		<height>577</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>塑料衣架</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>14</xmin>
+			<ymin>100</ymin>
+			<xmax>963</xmax>
+			<ymax>504</ymax>
+		</bndbox>
+	</object>
+</annotation>

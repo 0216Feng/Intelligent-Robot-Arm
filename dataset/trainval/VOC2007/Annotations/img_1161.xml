@@ -1,0 +1,26 @@
+<annotation>
+  <folder>2</folder>
+  <filename>img_1161.jpg</filename>
+  <path>D:\resize\2\img_1161.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>500</width>
+    <height>354</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>烟蒂</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>165</xmin>
+        <ymin>122</ymin>
+        <xmax>499</xmax>
+        <ymax>353</ymax>
+      </bndbox>
+    </object>
+  </annotation>

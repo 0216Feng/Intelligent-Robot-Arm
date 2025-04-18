@@ -1,0 +1,26 @@
+<annotation>
+  <folder>洗护用品</folder>
+  <filename>img_7773.jpg</filename>
+  <path>D:\resize\洗护用品\img_7773.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>244</width>
+    <height>392</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>洗护用品</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>85</xmin>
+        <ymin>23</ymin>
+        <xmax>211</xmax>
+        <ymax>384</ymax>
+      </bndbox>
+    </object>
+  </annotation>

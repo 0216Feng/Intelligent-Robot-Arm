@@ -1,0 +1,26 @@
+<annotation>
+	<folder>1</folder>
+	<filename>img_44.jpg</filename>
+	<path>C:\Users\hwx594248\Desktop\1\img_44.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>475</width>
+		<height>415</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>一次性快餐盒</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>25</ymin>
+			<xmax>475</xmax>
+			<ymax>409</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>砧板-156</folder>
+	<filename>img_14979.jpg</filename>
+	<path>C:\Users\zwx749888\Desktop\砧板-156\img_14979.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>811</width>
+		<height>478</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>砧板</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>62</xmin>
+			<ymin>38</ymin>
+			<xmax>806</xmax>
+			<ymax>478</ymax>
+		</bndbox>
+	</object>
+</annotation>

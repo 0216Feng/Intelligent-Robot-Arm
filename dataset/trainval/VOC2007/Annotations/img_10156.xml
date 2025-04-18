@@ -1,0 +1,26 @@
+<annotation>
+  <folder>13</folder>
+  <filename>img_10156.jpg</filename>
+  <path>D:\resize\13\img_10156.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>400</width>
+    <height>528</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>插头电线</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>2</xmin>
+        <ymin>225</ymin>
+        <xmax>325</xmax>
+        <ymax>527</ymax>
+      </bndbox>
+    </object>
+  </annotation>

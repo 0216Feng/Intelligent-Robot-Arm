@@ -1,0 +1,26 @@
+<annotation>
+	<folder>干电池</folder>
+	<filename>img_18242.jpg</filename>
+	<path>C:\Users\hwx731336\Desktop\黄明明\干电池\img_18242.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>209</width>
+		<height>226</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>干电池</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>28</xmin>
+			<ymin>22</ymin>
+			<xmax>190</xmax>
+			<ymax>206</ymax>
+		</bndbox>
+	</object>
+</annotation>

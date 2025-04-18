@@ -1,0 +1,26 @@
+<annotation>
+  <folder>17</folder>
+  <filename>img_16360.jpg</filename>
+  <path>D:\resize\17\img_16360.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>437</width>
+    <height>572</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>酒瓶</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>137</xmin>
+        <ymin>24</ymin>
+        <xmax>288</xmax>
+        <ymax>571</ymax>
+      </bndbox>
+    </object>
+  </annotation>

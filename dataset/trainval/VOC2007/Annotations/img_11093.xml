@@ -1,0 +1,26 @@
+<annotation>
+  <folder>旧衣服-孙双艳</folder>
+  <filename>img_11093.jpg</filename>
+  <path>D:\resize\旧衣服-孙双艳\img_11093.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>500</width>
+    <height>599</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>旧衣服</name>
+      <pose>Unspecified</pose>
+      <truncated>1</truncated>
+      <difficult>0</difficult>
+      <bndbox>
+        <xmin>0</xmin>
+        <ymin>0</ymin>
+        <xmax>499</xmax>
+        <ymax>598</ymax>
+      </bndbox>
+    </object>
+  </annotation>

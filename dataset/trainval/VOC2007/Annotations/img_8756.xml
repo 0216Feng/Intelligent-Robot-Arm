@@ -1,0 +1,26 @@
+<annotation>
+	<folder>塑料器皿</folder>
+	<filename>img_8756.jpg</filename>
+	<path>C:\Users\zwx652983\Desktop\lj\塑料器皿\img_8756.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>400</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>塑料器皿</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>10</xmin>
+			<ymin>87</ymin>
+			<xmax>293</xmax>
+			<ymax>333</ymax>
+		</bndbox>
+	</object>
+</annotation>

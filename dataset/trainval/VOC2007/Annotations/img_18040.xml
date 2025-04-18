@@ -1,0 +1,26 @@
+<annotation>
+	<folder>饮料瓶</folder>
+	<filename>img_18040.jpg</filename>
+	<path>C:\Users\zwx749888\Desktop\饮料瓶\img_18040.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>577</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>饮料瓶</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>135</xmin>
+			<ymin>325</ymin>
+			<xmax>377</xmax>
+			<ymax>571</ymax>
+		</bndbox>
+	</object>
+</annotation>

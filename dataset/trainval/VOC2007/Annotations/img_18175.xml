@@ -1,0 +1,26 @@
+<annotation>
+	<folder>饮料瓶</folder>
+	<filename>img_18175.jpg</filename>
+	<path>D:\workspace\task\ModelArts\modelArts-task\competition\SODIC\garbage_classify\datasets\垃圾分类标注完成\饮料瓶\img_18175.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>768</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>饮料瓶</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>119</xmin>
+			<ymin>23</ymin>
+			<xmax>980</xmax>
+			<ymax>576</ymax>
+		</bndbox>
+	</object>
+</annotation>
